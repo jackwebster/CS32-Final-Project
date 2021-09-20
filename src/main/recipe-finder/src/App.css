@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+h1 {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  font-family: Avenir;
+  font-size: 36px;
+  color: #888888;
+}
+
+h4 {
+  font-family: Avenir;
+  font-size: 20px;
+  color: #888888;
+}
+
+h5 {
+  font-family: Avenir;
+  font-size: 24px;
+  color: #000000;
+}
+
+.inputBox {
+  background-color: #2776ED;
+  border-radius: 10px;
+  border: 4px solid #000000;
+  padding: 20px;
+  width: 400px;
+  height: 25px;
+  outline: none;
+}
+
+.recipe {
+  /* We first create a flex layout context */
+  display: flex;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: left;
+}
+
+.inside-paragraph {
+  font-family: Avenir;
+  font-size: 24px;
+  color: #000000;
+  text-align: left;
+}
+
+.List {
+  /* We first create a flex layout context */
+  display: flex;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: center;
+
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+
+  /* Then we define the flow direction
+     and if we allow the items to wrap
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-evenly;
+
+  padding: 0;
+  list-style: none;
+  margin-top: 10%;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.MuiRating-label {
+  top:3px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,28 @@
+TODO:
+Back end (Georgia + Jack)
+- testing (Georgia, Jack)
+    -test bug 2?
+- commenting (Georgia, Jack) (this weekend)
+- think of edge cases + test null inputs (Georgia, Andres)
+- Future extensibility
+    - quantity of ingredients
+    - Cook = reduce ingredients
+    - list ingredients that user does not have in fridge
+- Add to readme we don't have repl, so what we did for system tests
+- Make presentation 5-7 minutes
+
+Front end:
+- commenting (Andres)
+- profile page
+    -update name? (Andres)
+-email confirmation (Andres)
+
+
+// DEMO: one user with a bunch of data (Andres, Georgia)
+
+TODO bugs:
+
+1) if user is logged in, and you do npm start and ./run -gui (after not having run in a
+while), fridge wont show; not sure how big a deal this is
+
+2) I got this once, but after I deleted an ingredient and went to search for new ingredients, nothing showed up?
